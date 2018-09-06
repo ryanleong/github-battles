@@ -6,8 +6,6 @@ class Home extends Component {
     constructor(props) {
         super(props);
 
-        this.searchInputTimeout;
-
         this.state = {
             user1: '',
             user2: ''
